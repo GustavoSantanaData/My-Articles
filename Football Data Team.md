@@ -1,5 +1,5 @@
-###Football Data Team
-##How Palmeiras Uses Data to Find a New Endrick
+### Football Data Team
+## How Palmeiras Uses Data to Find a New Endrick
 https://gustavosantana.online/football-data-team/
 
 Data-driven decisions have become increasingly important in companies across various sectors, but 
