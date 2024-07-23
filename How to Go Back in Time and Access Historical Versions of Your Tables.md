@@ -1,4 +1,4 @@
-![architecture](/imagens/Time Travel.png)
+![architecture](/images/time_travel.png)
 # Have you ever imagined being able to go back in time and access the modification history of a table? This is possible with the Time Travel functionality of Delta Lake.
 
 ## What is Delta Lake?
