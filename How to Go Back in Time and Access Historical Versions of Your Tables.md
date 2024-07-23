@@ -1,6 +1,6 @@
-## Have you ever imagined being able to go back in time and access the modification history of a table? This is possible with the Time Travel functionality of Delta Lake.
+# Have you ever imagined being able to go back in time and access the modification history of a table? This is possible with the Time Travel functionality of Delta Lake.
 
-# What is Delta Lake?
+## What is Delta Lake?
 
 Delta Lake is an open-source storage layer that enhances data lakes by adding ACID transaction capabilities (Atomicity, Consistency, Isolation, and Durability). It integrates with Apache Spark, offering reliability and performance to handle large volumes of data. To learn more about how to implement Delta Lake in your Spark jobs, access the documentation.
 
@@ -26,13 +26,14 @@ Keeping in mind what each configuration is for, notice that our time machine is 
 After configuring your Spark session, simply write your table in “delta” format:
 
 df.write.format("delta").mode("overwrite").save(delta_path)
-Time Travel:
+
+## Time Travel:
 
 Time Travel in Delta Lake allows table users to return to previous versions and access the modification history. This is useful for data auditing, debugging, and table correction.
 
 To access the history of a Delta table using Python, I will present some code examples.
 
-Importing:
+### Importing:
 
 from delta.tables import DeltaTable
 Displaying table version history:
@@ -43,12 +44,12 @@ This code will display the history of saved versions with identification and cha
 
 
 
-Restoring a table version:
+### Restoring a table version:
 
 deltaTable.restoreToVersion(4254)
 In parentheses, you should add the version number you want to restore.
 
-ATTENTION!
+### ATTENTION!
 
 Last but not least, keep in mind that the retention time will use capacity and storage resources to keep the history of your tables. This can impact storage costs and query performance.
 
