@@ -1,4 +1,5 @@
-### Football Data Team
+![architecture](/images/datateam.png)
+# Football Data Team
 ## How Palmeiras Uses Data to Find a New Endrick
 https://gustavosantana.online/football-data-team/
 
