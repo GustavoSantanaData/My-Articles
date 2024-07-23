@@ -42,7 +42,7 @@ Displaying table version history:
 deltaTable = DeltaTable.forPath(ss.spark, "path/to/table")
 fullHistoryDF = deltaTable.history()
 This code will display the history of saved versions with identification and change numbers.
-
+![architecture](/images/output.png)
 
 
 ### Restoring a table version:
