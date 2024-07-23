@@ -1,6 +1,6 @@
-##Have you ever imagined being able to go back in time and access the modification history of a table? This is possible with the Time Travel functionality of Delta Lake.
+## Have you ever imagined being able to go back in time and access the modification history of a table? This is possible with the Time Travel functionality of Delta Lake.
 
-What is Delta Lake?
+# What is Delta Lake?
 
 Delta Lake is an open-source storage layer that enhances data lakes by adding ACID transaction capabilities (Atomicity, Consistency, Isolation, and Durability). It integrates with Apache Spark, offering reliability and performance to handle large volumes of data. To learn more about how to implement Delta Lake in your Spark jobs, access the documentation.
 
